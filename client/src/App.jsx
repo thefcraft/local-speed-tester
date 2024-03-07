@@ -5,7 +5,9 @@ function runSpeedTest(size) {
   const speedometerText = document.getElementById('speedometer_text');
   const result = document.getElementById('result');
   const arrow_wrapper = document.getElementById('arrow').parentElement;
-  fetch(`http://127.0.0.1:5000/api/data/${size}`).then(response => {
+  // using proxy makes speed slower
+  // console.log(window.location.href.split(":")[0]+":"+window.location.href.split(":")[1]+":5000");
+  fetch(`${window.location.href.split(":")[0]+":"+window.location.href.split(":")[1]}:5000/api/data/${size}`).then(response => {
     // Read the response body as a ReadableStream
     const reader = response.body.getReader();
     const speedometer_scales = [];
