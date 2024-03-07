@@ -35,6 +35,12 @@ This project allows users to measure their internet speed within a local network
 
 Contributions are welcome! Feel free to fork the repository, make changes, and submit a pull request to improve the project.
 
+## Task:-
+
+Check Download Speed ✅
+Check Upload Speed ❌
+Check ping/latency ❌
+
 ## image
 <div style="display: flex;">
   <img src="img/1.png" style="flex: 1; margin-right: 10px;"  height="400px">
