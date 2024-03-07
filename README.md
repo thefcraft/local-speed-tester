@@ -34,3 +34,9 @@ This project allows users to measure their internet speed within a local network
 ## Contributing
 
 Contributions are welcome! Feel free to fork the repository, make changes, and submit a pull request to improve the project.
+
+## image
+<div style="display: flex;">
+  <img src="img/1.png" style="flex: 1; margin-right: 10px;"  height="400px">
+  <img src="img/0.png" style="flex: 1; margin-left: 10px;" height="400px">
+</div>
