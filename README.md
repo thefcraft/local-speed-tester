@@ -2,6 +2,8 @@
 
 A local network internet speed tester built using Python Flask and ReactJS.
 
+video demo [instagram](https://www.instagram.com/p/C4L3EzvuzbQ/)
+
 ## Overview
 
 This project allows users to measure their internet speed within a local network environment. It is developed using Python Flask for the backend and ReactJS for the frontend.
